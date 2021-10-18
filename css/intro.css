@@ -1,0 +1,38 @@
+.intro {
+    min-height: 100vh;
+    background-image: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-title {
+    padding-top: 200px;
+    font-size: 50pt;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.intro-subtitle {
+    font-weight: 300;
+    color: white;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.projects-button {
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 0px 2px rgba(9,4,2,0.24);
+    font-size: 12pt;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #0096ff;
+    text-decoration: none;
+}
+
+/* INTRO - END */

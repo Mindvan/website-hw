@@ -1,0 +1,318 @@
+@import "header.css";
+@import "basic.css";
+@import "intro.css";
+@import "cut.css";
+@import "footer.css";
+@import "info.css";
+
+@media screen and (max-width: 969px) {
+    .projects-item {
+        max-width: 800px;
+    }
+
+    .projects-item-img img
+    {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .projects-item {
+        max-width: 700px;
+    }
+
+    .projects-item-img img
+    {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .header-link{
+        font-size: 10px;
+    }
+
+    .header-adapt {
+        display: block;
+    }
+    .intro-title {
+        font-size: 42pt;
+    }
+
+    .projects-item {
+        grid-column-gap: 20px;
+        max-width: 600px;
+    }
+
+    .projects-item-title {
+        font-size: 20px;
+    }
+
+    .projects-item-synopsis {
+        padding-bottom: 10px;
+    }
+
+    .projects-item-img img
+    {
+        width: 300px;
+    }
+
+    .projects-quote {
+        font-size: 12pt;
+    }
+
+    .default-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .header-link{
+        font-size: 10px;
+    }
+
+    .intro-title {
+        font-size: 36pt;
+    }
+
+    .benefits-title-reason {
+        font-size: 12pt;
+    }
+
+    .benefits-item {
+        grid-column: span 3;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .benefits-item:last-child{
+        padding-bottom: 0;
+    }
+
+    #projects-title {
+        font-size: 32px;
+    }
+
+    .projects-item {
+        grid-column-gap: 20px;
+        max-width: 500px;
+    }
+
+    .projects-item-title {
+        padding-bottom: 20px;
+    }
+
+    .projects-item-synopsis {
+        display: none;
+    }
+
+    .projects-item-img img
+    {
+        width: 240px;
+    }
+
+    .discussion-title {
+        font-size: 36pt;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .intro-title {
+        font-size: 30pt;
+    }
+
+    .discussion-title {
+        font-size: 30pt;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyright-adapt {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .intro-title {
+        font-size: 24pt;
+    }
+
+    .benefits-title {
+        font-size: 1.25em;
+    }
+
+    .benefits-title-reason {
+        font-size: 10pt;
+    }
+
+    .benefits-item-title {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .benefits-subtitle {
+        font-size: 8pt;
+        max-width: 300px;
+    }
+
+    .types-title
+    {
+        font-size: 24pt;
+    }
+
+    #projects-title
+    {
+        font-size: 28px;
+    }
+
+    .projects-item {
+        grid-column-gap: 20px;
+        max-width: 300px;
+    }
+
+    .projects-item-title {
+        padding-bottom: 14px;
+    }
+
+    .projects-item-img img
+    {
+        width: 150px;
+    }
+
+    .default-link {
+        font-size: 14px;
+    }
+
+    .projects-quote {
+        font-size: 10pt;
+    }
+
+    .discussion-title {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    .intro-title {
+        font-size: 16pt;
+    }
+
+    .intro-subtitle {
+        font-size: 10pt;
+    }
+
+    .types-title {
+        font-size: 16pt;
+    }
+
+    .projects-item {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .projects-item:last-child{
+        padding-bottom: 0;
+    }
+
+    .projects-item-title {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .projects-item-img {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .projects-item-img img
+    {
+        width: 250px;
+    }
+
+    .default-link {
+
+    }
+
+    .discussion-title {
+        font-size: 16pt;
+    }
+
+    .discussion-link {
+        font-size: 12pt;
+    }
+
+    .footer-title {
+        font-size: 12px;
+    }
+
+    .footer-link, .footer-contacts {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 271px) {
+    .projects-item-img img
+    {
+        width: 150px;
+    }
+
+    .discussion-link {
+        font-size: 8pt;
+    }
+
+    .projects-button {
+        font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .intro-title {
+        word-break: break-all;
+    }
+
+    .benefits-title, .benefits-title-reason,
+    .benefits-item-title, .benefits-subtitle{
+        word-break: break-all;
+    }
+
+    .types-title, .types-item {
+        word-break: break-all;
+    }
+
+    .projects-title, .projects-item-title,
+    .projects-item-synopsis, .projects-quote {
+        word-break: break-all;
+    }
+
+    .projects-button {
+        font-size: 6pt;
+        padding: 5px 10px;
+        word-break: break-all;
+    }
+
+    .projects-item-img {
+        display: none;
+    }
+
+    .discussion-title, .discussion-link {
+        word-break: break-all;
+    }
+
+    .footer-title, .footer-contacts,
+    .footer-link, .copyright-adapt{
+        word-break: break-all;
+    }
+
+    .footer-logo-img {
+        width: 50px;
+    }
+}

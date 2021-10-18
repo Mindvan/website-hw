@@ -1,0 +1,78 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../font/Montserrat-V18-300-italic.woff") format("woff");
+    font-display: swap;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../font/Montserrat-V18-600.woff") format("woff");
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../font/Montserrat-V18-800.woff") format("woff");
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.white-color {
+    filter: invert(99%) sepia(1%) saturate(7490%)
+    hue-rotate(208deg) brightness(125%) contrast(100%);
+}
+
+.blue-color {
+    filter: invert(63%) sepia(82%) saturate(6083%)
+    hue-rotate(185deg) brightness(105%) contrast(102%);
+}
+
+
+.default-link {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1;
+    text-decoration: none;
+    color: black;
+}
+
+
+.arrow {
+    display: none;
+}
+
+.default-link:hover {
+    color: #0096ff;
+    transition: 0.3s ease-in-out;
+}
+
+.default-link:hover .arrow{
+    display: inline-block;
+    margin-left: -8px;
+}
+
+/* MAIN STUFF - END */

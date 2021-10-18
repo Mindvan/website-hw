@@ -1,0 +1,208 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.dog {
+    position: relative;
+    transform: rotate(10deg);
+}
+
+.face {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 120px solid #9a5006;
+    top: 180px;
+    left: -5px;
+    transform: rotate(30deg);
+}
+
+.body {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background: radial-gradient(circle closest-corner at 120px 120px, #f5c889, #9a5006);
+    border-radius: 50%;
+    left: 62px;
+    top: 92px;
+}
+
+.body::after {
+    content: "";
+    position: absolute;
+    width: 253px;
+    height: 153px;
+    background: #804106;
+    border-radius: 50%;
+    left: -1.5px;
+    top: -1.5px;
+    z-index: -1;
+}
+
+.ear-l {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #804106;
+    left: 20px;
+    top: -5px;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+
+.ear-r {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #804106;
+    left: 40px;
+    top: 5px;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.eye {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    bottom: -0px;
+    left: 62px;
+}
+
+.eye-black {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background: black;
+    border-radius: 50%;
+    bottom: 3px;
+    right: 8px;
+}
+
+.nose {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    bottom: -10px;
+    right: -10px;
+}
+
+.mouth {
+    position: absolute;
+    width: 50px;
+    height: 25px;  /* высота в два раза меньше ширины, иначе получится полуовал */
+    /*border: 2px solid #804106;*/
+    background-color: #fff;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    bottom: -30px;
+    left: 37px;
+    transform: rotate(26deg);
+}
+
+.legs-l-front {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 50px solid #804106;
+    transform: rotate(10deg);
+    left: 10px;
+    top: 110px;
+    z-index: -1;
+}
+
+.legs-l-behind {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 50px solid #804106;
+    left: 40px;
+    top: 130px;
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+.legs-r-front {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 50px solid #804106;
+    transform: rotate(-25deg);
+    left: 210px;
+    top: 100px;
+}
+
+.legs-r-behind {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 50px solid #804106;
+    transform: rotate(-10deg);
+    left: 185px;
+    top: 120px;
+    z-index: -1;
+}
+
+.tail {
+    position: absolute;
+    width: 120px;
+    height: 28px;
+    background-color: #9c5003;
+    border-radius: 60%;
+    border: 2px solid #804106;
+    transform: rotate(-62deg);;
+    left: 195px;
+    top: -14px;
+    z-index: -1;
+}
+
+.tail2 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 24px solid #804106;
+    transform: rotate(203deg);
+    left: 269.5px;
+    top: -92px;
+}
+
+.tail2:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 18px solid white;
+    transform: rotate(0deg);
+    left: -8px;
+    top: -22px;
+}
+
+.footer {
+    margin-top: 200px;
+}
+

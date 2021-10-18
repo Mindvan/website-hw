@@ -1,0 +1,119 @@
+.benefits-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.benefits-title-reason {
+    max-width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14pt;
+}
+
+.benefits-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.benefits-title {
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.benefits-item-title {
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.benefits-subtitle {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 10pt;
+}
+
+/* BENEFITS - END */
+
+.types {
+    min-height: 611px;
+    background-image: url("../img/types-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.types-title {
+    background-color: #0096ff;
+    display: inline;
+    font-size: 30pt;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.types-list {
+    padding-top: 30px;
+}
+
+.types-item {
+    margin-bottom: 30px;
+}
+
+.types-item:last-child{
+    margin-bottom: 0;
+}
+
+/* TYPES OF LOCALIZATION - END */
+
+.discussion {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url("../img/discussion-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.discussion-title {;
+    padding-top: 300px;
+    padding-bottom: 10px;
+    font-size: 50pt;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.discussion-link {
+    text-decoration: none;
+    font-size: 16pt;
+    color: white;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.discussion-link:hover, .discussion-link:active {
+    color: #0096ff;
+    transition: 0.3s ease-in-out;
+}
+
+/* LET'S DISCUSS - END */
